@@ -2,15 +2,36 @@
 
 Se utilizaron las siguientes herramientas o tecnologias:
 
-- [Expo](https://expo.dev/)
-- [VsCode](https://code.visualstudio.com/)
-- [Node](https://nodejs.org/en/)
-- [SDK de Android Studio](https://developer.android.com/studio?gclid=CjwKCAjw_ISWBhBkEiwAdqxb9t6aX0M9qG1TVz-AqgbPC62FmtJR4MV0iW2Ym2L9t7Qsajk6gR7F3xoCs3gQAvD_BwE&gclsrc=aw.ds)
+- [Expo][expo]
+- [VsCode][vsCode]
+- [Node][node]
+- [SDK de Android Studio][sdkAndroid]
 
 ## Nota: Puedes utilizar cualquier emulador
 
-### Resultados
+## Dependencias
 
-![Alt text](relative/path/to/../../../img/hello_word.png?raw=true "hello-word")
+1. hola-mundo
+   - ninguna
+2. navegacion-pantalla
+    - react-navigation
+    - react-navigation-safe-area-context [enlace][navigator-dependeci]
+    - react-navigation/native-stack [enlace][navigator-dependeci]
+    - react-navigation/bottom-tabs [enlace][navigator-dependeci]
 
-Visita nuestro sitio web [Gabriel Codigo](https://gabrielcodigo.com/#/dashboard/)
+### hola-mundo
+
+![Alt text](relative/path/to/../../../assets/img/hello_word.png?raw=true "hello-word")
+
+### navegacion-pantalla
+
+![Alt text](relative/path/to/../../../assets/video/navegacion_pantalla.gif?raw=true"navegacion-pantalla)
+
+Visita nuestro sitio web [Gabriel Codigo][web]
+
+[navigator-dependeci]: https://reactnavigation.org/docs/getting-started/
+[web]: https://gabrielcodigo.com/#/dashboard/
+[expo]: https://expo.dev/
+[vsCode]: https://code.visualstudio.com/
+[node]: https://nodejs.org/en/
+[sdkAndroid]: https://developer.android.com/studio?gclid=CjwKCAjw_ISWBhBkEiwAdqxb9t6aX0M9qG1TVz-AqgbPC62FmtJR4MV0iW2Ym2L9t7Qsajk6gR7F3xoCs3gQAvD_BwE&gclsrc=aw.ds

@@ -39,7 +39,7 @@ const Home = () => {
                 <Tab.Screen name="perfil" component={ProfileProfesionalScreen} />
                 <Tab.Screen name="Descripcion" component={DescriptionScreen} />
                 <Tab.Screen name="Campo" component={OcupationalFielScreen} />
-                <Tab.Screen name="Porque?" component={WhySoftwareDevelopementScreen} />
+                <Tab.Screen name="Porque" component={WhySoftwareDevelopementScreen} />
             </Tab.Navigator>
         </NavigationContainer>
     );
