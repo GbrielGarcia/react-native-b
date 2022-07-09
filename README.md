@@ -35,9 +35,13 @@ Se utilizo las siguientes herramientas o tecnologias:
 
 ![Alt text](relative/path/to/../../../assets/video/navegacion_pantalla.gif?raw=true"navegacion-pantalla)
 
-### iperaciones-aritmeticas
+### operaciones-aritmeticas
 
-![Alt text](relative/path/to/../../../assets/video/operaciones_aritmeticas.gif?raw=true"navegacion-pantalla)
+![Alt text](relative/path/to/../../../assets/video/operaciones_aritmeticas.gif?raw=true"operaciones-artimeticas)
+
+### edad-operacjones
+
+![Alt text](relative/path/to/../../../assets/img/edad_operaciones.jpg?raw=true"edad_operaciones)
 
 Visita nuestro sitio web [Gabriel Codigo][web]
 
