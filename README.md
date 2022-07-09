@@ -35,6 +35,10 @@ Se utilizaron las siguientes herramientas o tecnologias:
 
 ![Alt text](relative/path/to/../../../assets/video/navegacion_pantalla.gif?raw=true"navegacion-pantalla)
 
+### iperaciones-aritmeticas
+
+![Alt text](relative/path/to/../../../assets/video/operaciones_aritmeticas.gif?raw=true"navegacion-pantalla)
+
 Visita nuestro sitio web [Gabriel Codigo][web]
 
 [navigator-dependeci]: https://reactnavigation.org/docs/getting-started/
