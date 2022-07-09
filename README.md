@@ -1,6 +1,6 @@
 # Ejemplos de REACT NATIVE
 
-Se utilizaron las siguientes herramientas o tecnologias:
+Se utilizo las siguientes herramientas o tecnologias:
 
 - [Expo][expo]
 - [VsCode][vsCode]
