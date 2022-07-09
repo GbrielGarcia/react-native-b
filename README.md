@@ -19,6 +19,14 @@ Se utilizaron las siguientes herramientas o tecnologias:
     - react-navigation/native-stack [enlace][navigator-dependeci]
     - react-navigation/bottom-tabs [enlace][navigator-dependeci]
 
+## Como utilzar el repositorio
+
+1. Poner el comando.
+   - npm install, para que se instales las depencias del proyecto.
+   - expo start, para inicializar el projecto
+
+## NOTA: si no tienes instalado expo, anda al sitio oficial para la instalacion [expo dev][expodev]
+
 ### hola-mundo
 
 ![Alt text](relative/path/to/../../../assets/img/hello_word.png?raw=true "hello-word")
@@ -35,3 +43,4 @@ Visita nuestro sitio web [Gabriel Codigo][web]
 [vsCode]: https://code.visualstudio.com/
 [node]: https://nodejs.org/en/
 [sdkAndroid]: https://developer.android.com/studio?gclid=CjwKCAjw_ISWBhBkEiwAdqxb9t6aX0M9qG1TVz-AqgbPC62FmtJR4MV0iW2Ym2L9t7Qsajk6gR7F3xoCs3gQAvD_BwE&gclsrc=aw.ds
+[expodev]: https://docs.expo.dev/workflow/expo-cli/
