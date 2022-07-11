@@ -13,7 +13,7 @@ Se utilizo las siguientes herramientas o tecnologias:
 
 1. hola-mundo
    - ninguna
-2. navegacion-pantalla
+2. navegacion-pantalla:
     - react-navigation
     - react-navigation-safe-area-context [enlace][navigator-dependeci]
     - react-navigation/native-stack [enlace][navigator-dependeci]
