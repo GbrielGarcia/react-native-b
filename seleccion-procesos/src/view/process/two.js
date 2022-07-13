@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Pressable, TextInput, View, Text, StyleSheet } from 'react-native';
 
-function DosProcess({ navigation }) {
+function TwoProcess({ navigation }) {
 
     const [numberOne, setNumberOne] = useState();
     const [numberTwo, setNumberTwo] = useState();
@@ -48,7 +48,7 @@ function DosProcess({ navigation }) {
 
             <Pressable
                 style={[styles.button, { backgroundColor: 'red' }]}
-                title="VOLVER" onPress={() => navigation.navigate('Home')}>
+                title="VOLVER" onPress={() => navigation.navigate('Inicio')}>
                 <Text style={styles.text} >inicio</Text>
             </Pressable>
         </View>
@@ -91,4 +91,4 @@ const styles = StyleSheet.create({
 
 });
 
-export default DosProcess;
+export default TwoProcess;

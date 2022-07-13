@@ -8,7 +8,7 @@ function Process({ navigation }) {
             <TouchableWithoutFeedback
                 style={styles.button}
                 title="Seleccion"
-                onPress={() => navigation.navigate('UnoProcess')}>
+                onPress={() => navigation.navigate('Uno Procesos')}>
                 <View style={styles.button}>
                     <Text style={styles.text}>uno</Text>
                 </View>
@@ -16,7 +16,7 @@ function Process({ navigation }) {
             <TouchableWithoutFeedback
                 style={styles.button}
                 title="Seleccion"
-                onPress={() => navigation.navigate('DosProcess')}>
+                onPress={() => navigation.navigate('Dos Procesos')}>
                 <View style={styles.button}>
                     <Text style={styles.text}>dos</Text>
                 </View>
@@ -24,14 +24,22 @@ function Process({ navigation }) {
             <TouchableWithoutFeedback
                 style={styles.button}
                 title="Seleccion"
-                onPress={() => navigation.navigate('TresProcess')}>
+                onPress={() => navigation.navigate('Tres Procesos')}>
                 <View style={styles.button}>
                     <Text style={styles.text}>tres</Text>
                 </View>
             </TouchableWithoutFeedback>
+            <TouchableWithoutFeedback
+                style={styles.button}
+                title="Seleccion"
+                onPress={() => navigation.navigate('Cuatro Procesos')}>
+                <View style={styles.button}>
+                    <Text style={styles.text}>cuatro</Text>
+                </View>
+            </TouchableWithoutFeedback>
             <Pressable
                 style={[styles.button, { backgroundColor: 'red' }]}
-                title="VOLVER" onPress={() => navigation.navigate('Home')}>
+                title="VOLVER" onPress={() => navigation.navigate('Inicio')}>
                 <Text style={styles.text} >volver</Text>
             </Pressable>
         </View>
@@ -42,11 +50,10 @@ function Process({ navigation }) {
 const styles = StyleSheet.create({
     button: {
         alignItems: 'center',
-        justifyContent: 'center',
         paddingVertical: 12,
         paddingHorizontal: 32,
         borderRadius: 4,
-        elevation: 3,
+        width: '40%',
         backgroundColor: 'black',
         margin: 10,
     },

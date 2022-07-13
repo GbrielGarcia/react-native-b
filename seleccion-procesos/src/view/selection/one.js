@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Pressable, TextInput, View, Text, StyleSheet } from 'react-native';
-function UnoSelection({ navigation }) {
+
+function OneSelection({ navigation }) {
 
     const [number, setNumber] = useState();
     const [result, setResult] = useState();
@@ -39,7 +40,7 @@ function UnoSelection({ navigation }) {
 
             <Pressable
                 style={[styles.button, { backgroundColor: 'red' }]}
-                title="" onPress={() => navigation.navigate('Home')}>
+                title="" onPress={() => navigation.navigate('Inicio')}>
                 <Text style={styles.text} >inicio</Text>
             </Pressable>
         </View>
@@ -82,4 +83,4 @@ const styles = StyleSheet.create({
 });
 
 
-export default UnoSelection;
+export default OneSelection;

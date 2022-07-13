@@ -8,7 +8,7 @@ function Selection({ navigation }) {
                      <TouchableWithoutFeedback
                 style={styles.button}
                 title="Seleccion"
-                onPress={() => navigation.navigate('UnoSelection')}>
+                onPress={() => navigation.navigate('Uno Seleccion')}>
                 <View style={styles.button}>
                     <Text style={styles.text}>uno</Text>
                 </View>
@@ -16,7 +16,7 @@ function Selection({ navigation }) {
             <TouchableWithoutFeedback
                 style={styles.button}
                 title="Seleccion"
-                onPress={() => navigation.navigate('DosSelection')}>
+                onPress={() => navigation.navigate('Dos Seleccion')}>
                 <View style={styles.button}>
                     <Text style={styles.text}>dos</Text>
                 </View>
@@ -24,14 +24,14 @@ function Selection({ navigation }) {
             <TouchableWithoutFeedback
                 style={styles.button}
                 title="Seleccion"
-                onPress={() => navigation.navigate('TresSelection')}>
+                onPress={() => navigation.navigate('Tres Seleccion')}>
                 <View style={styles.button}>
                     <Text style={styles.text}>tres</Text>
                 </View>
             </TouchableWithoutFeedback>
             <Pressable
                 style={[styles.button, { backgroundColor: 'red' }]}
-                title="VOLVER" onPress={() => navigation.navigate('Home')}>
+                title="VOLVER" onPress={() => navigation.navigate('Inicio')}>
                 <Text style={styles.text} >volver</Text>
             </Pressable>      
             
@@ -43,11 +43,10 @@ function Selection({ navigation }) {
 const styles = StyleSheet.create({
     button: {
         alignItems: 'center',
-        justifyContent: 'center',
         paddingVertical: 12,
         paddingHorizontal: 32,
         borderRadius: 4,
-        elevation: 3,
+        width: '40%',
         backgroundColor: 'black',
         margin: 10,
     },
@@ -61,6 +60,5 @@ const styles = StyleSheet.create({
     },
 
 });
-
 
 export default Selection;

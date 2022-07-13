@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Pressable, TextInput, View, Text, StyleSheet } from 'react-native';
 
-function TresSelection({ navigation }) {
+function ThreeSelection({ navigation }) {
 
     const [number, setNumber] = useState();
     const [result, setResult] = useState();
@@ -44,7 +44,7 @@ function TresSelection({ navigation }) {
 
             <Pressable
                 style={[styles.button, { backgroundColor: 'red' }]}
-                title="" onPress={() => navigation.navigate('Home')}>
+                title="" onPress={() => navigation.navigate('Inicio')}>
                 <Text style={styles.text} >inicio</Text>
             </Pressable>
 
@@ -89,4 +89,4 @@ const styles = StyleSheet.create({
 
 });
 
-export default TresSelection;
+export default ThreeSelection;
