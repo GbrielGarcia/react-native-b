@@ -40,9 +40,13 @@ Se utilizo las siguientes herramientas o tecnologias:
 
 ![Alt text](relative/path/to/../../../assets/video/operaciones_aritmeticas.gif?raw=true"operaciones-artimeticas)
 
-### edad-operacjones
+### edad-operaciones
 
 ![Alt text](relative/path/to/../../../assets/img/edad_operaciones.jpg?raw=true"edad_operaciones)
+
+### drawer
+
+![Alt text](relative/path/to/../../../assets/img/drawer.png?raw=true"drawer)
 
 ### Operaciones y seleccion
 
