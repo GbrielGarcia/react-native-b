@@ -48,8 +48,6 @@ Se utilizo las siguientes herramientas o tecnologias:
 
 ![Alt text](relative/path/to/../../../assets/img/drawer.png?raw=true"drawer)
 
-### Operaciones y seleccion
-
 Visita nuestro sitio web [Gabriel Codigo][web]
 
 [navigator-dependeci]: https://reactnavigation.org/docs/getting-started/
